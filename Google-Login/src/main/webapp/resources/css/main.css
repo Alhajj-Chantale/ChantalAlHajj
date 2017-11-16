@@ -1,0 +1,81 @@
+body {
+    font-family: Sans-Serif;
+    margin: 1em;
+    background-color: #ced6e0;
+}
+.panel-heading{
+    font-size: 19px;
+}
+.text-center{
+    text-align: center;
+}
+.text-red{
+    color: red;
+}
+.text-green{
+    color: green;
+}
+.no-margin{
+    margin: 0px;
+}
+.no-padding{
+    padding: 0px;
+}
+.admin-links{
+    font-size: 17px;
+}
+.dropdown-actions-list{
+    height: 34px;
+}
+.socail-title{
+    font-size: 20px;
+}
+.socail-sub-title{
+    font-size: 13px;
+}
+.social-brand-container{
+    margin-bottom: -15px;
+}
+.dropdown-menu > li > a.header-change-pwd{
+    font-weight: bold;
+}
+.popover-title{
+    background-color: #C8E5F3;
+}
+.notificationRow, .notificationMessageCell{
+    padding: 0;
+}
+#contactForm .glyphicon-chevron-right, #contactForm .glyphicon-chevron-down{
+    padding-top: 10px;
+}
+#contactForm .glyphicon-chevron-right:hover, #contactForm .glyphicon-chevron-down:hover{
+    cursor: pointer;
+}
+#calendar {
+    background-color: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+input#chat {
+    width: 410px
+}
+
+#console-container {
+    width: 400px;
+}
+
+#console {
+    border: 1px solid #CCCCCC;
+    border-right-color: #999999;
+    border-bottom-color: #999999;
+    height: 170px;
+    overflow-y: scroll;
+    padding: 5px;
+    width: 100%;
+}
+
+#console p {
+    padding: 0;
+    margin: 0;
+}

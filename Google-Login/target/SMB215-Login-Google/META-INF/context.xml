@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/SMB215-OAuth-Google">
+    <Resource name="jdbc/smb215"
+              type="javax.sql.DataSource"
+              factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/SMB215"
+              username="SMB215_user"
+              password="b7yAm4JZKpK2NALX"
+              maxActive="8" 
+              maxIdle="4" 
+              maxWait="10000"
+              auth="Container"
+    />
+    <Realm className="org.apache.catalina.realm.DataSourceRealm"
+           digest="MD5"
+           dataSourceName="jdbc/smb215"
+           userTable="users"
+           userNameCol="user_name" 
+           userCredCol="password"
+           userRoleTable="users_roles" 
+           roleNameCol="role_name"
+           localDataSource="true"/>
+</Context>
